@@ -14,6 +14,7 @@ export default function Editor() {
     <>
       <div>
         <textarea
+          placeholder="Start Typing your React code"
           id="editing"
           onChange={(e) => {
             setcode(e.target.value);
